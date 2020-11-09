@@ -1,0 +1,16 @@
+html
+  body
+    h1= title
+      h2 Developed By
+      ul
+        for developer in developedBy
+          li= developer
+      h2 Starring
+      ul
+        for actor in starring
+          li= actor
+      h2 Seasons
+      ul  
+        for season in seasons
+          li
+            a(href=`/season/${season.number}`)= `Season ${season.number}`

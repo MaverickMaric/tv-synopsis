@@ -1,0 +1,19 @@
+html
+  head
+    link(rel="stylesheet" href="/css/style.css")
+  body
+    h1= title
+    h2= `Season ${season.number}`
+    table
+      tr 
+        th No.
+        th Title
+        th Director
+      for ep in season.episodes  
+        tr
+          td(class='epNumber')= ep.number
+          td(class='epTitleDirector')= ep.title
+          td(class='epTitleDirector')= ep.director
+        tr  
+          td(colspan='3' class='epSynopsis')= ep.synopsis
+

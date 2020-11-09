@@ -1,0 +1,36 @@
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+table{
+  margin: 0 auto;
+  width: 80%
+}
+
+h2{
+  text-align: center;
+}
+
+tr{
+  height: 40px;
+}
+
+.epTitleDirector{
+  text-indent: 5%;
+}
+
+.epSynopsis{
+  height: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.epNumber{
+  text-align: center;
+}
+
+th{
+  background-color: cornflowerblue;
+  color: white;
+}
